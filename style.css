@@ -34,6 +34,7 @@ details > summary{
     list-style: none;
 }
 
+details > 
 details[open] summary {
     color: black;
 }
@@ -43,6 +44,11 @@ details[open] summary {
     cursor: pointer;
 }
 
+.section:hover .svg_cross {
+    display: flex;
+}
+
 .svg_cross {
+    display: none;
     color: black;
 }
