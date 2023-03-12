@@ -30,13 +30,20 @@ body {
     border-top: 1px solid;
 }
 
+details.box {
+    transition: all 0.4s ease-in-out;
+}
+
 details > summary{
     list-style: none;
 }
 
-details > 
 details[open] summary {
     color: black;
+}
+
+details[open] svg {
+    display: flex;
 }
 
 .section:hover .gif_title{
@@ -51,4 +58,9 @@ details[open] summary {
 .svg_cross {
     display: none;
     color: black;
+}
+
+.img_box {
+    display: flex;
+    justify-content: center;
 }
