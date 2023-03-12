@@ -1,77 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 
 body {
-    padding: 0;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Open Sans";
-    text-shadow: 1px  0px 1px;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  text-shadow: 1px 0px 1px;
 }
 
 .app_box {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
 }
 
 .gif_title {
-    display: flex;
-    justify-content: space-between;
-    color: #3388FF;
+  display: flex;
+  justify-content: space-between;
+  color: #3388ff;
 }
 
-
-.box { 
-    border-top: 1px solid;
+.box {
+  border-top: 1px solid;
 }
 
 details.box {
-    transition: all 0.4s;
-    margin-bottom: 10px;
+  transition: all 0.4s;
+  margin-bottom: 10px;
 }
 
-details > summary{
-    list-style: none;
+details > summary {
+  list-style: none;
 }
 
 details[open] summary {
-    color: black;
+  color: black;
 }
 
 details[open] svg {
-    display: flex;
+  display: flex;
 }
 
-.section:hover .gif_title{
-    color: black;
-    cursor: pointer;
+.section:hover .gif_title {
+  color: black;
+  cursor: pointer;
 }
 
 .section:hover .svg_cross {
-    display: flex;
+  display: flex;
 }
 
 .svg_cross {
-    display: none;
-    color: black;
+  display: none;
+  color: black;
 }
 
 .img_box {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .img_box:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .meme_image {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
-
