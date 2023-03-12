@@ -20,6 +20,8 @@ body {
 }
 
 .gif_title {
+    display: flex;
+    justify-content: space-between;
     color: #3388FF;
 }
 
@@ -33,5 +35,14 @@ details > summary{
 }
 
 details[open] summary {
+    color: black;
+}
+
+.section:hover .gif_title{
+    color: black;
+    cursor: pointer;
+}
+
+.svg_cross {
     color: black;
 }
