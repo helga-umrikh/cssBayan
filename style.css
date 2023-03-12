@@ -31,7 +31,8 @@ body {
 }
 
 details.box {
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s;
+    margin-bottom: 10px;
 }
 
 details > summary{
@@ -64,3 +65,13 @@ details[open] svg {
     display: flex;
     justify-content: center;
 }
+
+.img_box:hover {
+    cursor: pointer;
+}
+
+.meme_image {
+    width: 50%;
+    height: 50%;
+}
+
